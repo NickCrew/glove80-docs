@@ -1,0 +1,4 @@
+.bundle/
+.ruby-lsp/
+.DS_Store
+layers/*.pdf

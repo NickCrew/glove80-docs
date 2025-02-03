@@ -1,0 +1,507 @@
+[
+  {
+    "name": "system-layer-diagram",
+    "css": "/* front legend */\n.keylabel10 div { \n    font-size: xx-small;\n    font-style: italic;\n    text-shadow: 1px 1px 2px #FFD600;\n}\n/* description */\ncenter h2 {\n    margin-top: 1em;\n    font-weight: bold;\n}\ncenter ul {\n    padding-left: 0;\n    margin-top: 1em;\n    padding-top: 1em;\n    font-size: smaller;\n}\ncenter ul li {\n    margin-top: 1ex;\n    list-style-type: none;\n}\ncenter ul li a {\n    font-weight: bold;\n}\ncenter .permalink {\n    font-size: x-small;\n}\ncenter em {\n    font-weight: normal;\n    font-style: normal;\n}"
+  },
+  [
+    {
+      "c": "#bbdefb",
+      "p": "CHICKLET",
+      "a": 7,
+      "fa": [
+        9
+      ]
+    },
+    "<i class='kb kb-Unicode-Screen-Dim'></i>",
+    "<i class='kb kb-Unicode-Screen-Bright'></i>",
+    {
+      "c": "#cccccc",
+      "g": true,
+      "f": 3
+    },
+    "F3",
+    {
+      "f": 3
+    },
+    "F4",
+    {
+      "f": 3
+    },
+    "F5",
+    {
+      "x": 7,
+      "t": "#EEEEEE",
+      "f": 3
+    },
+    "Reset",
+    {
+      "t": "#000000",
+      "f": 3
+    },
+    "F7",
+    {
+      "f": 3
+    },
+    "F8",
+    {
+      "f": 3
+    },
+    "F9",
+    {
+      "t": "#EEEEEE",
+      "f": 3
+    },
+    "Boot loader"
+  ],
+  [
+    {
+      "t": "#000000",
+      "a": 5,
+      "f": 3
+    },
+    "|\n\\",
+    {
+      "f": 3
+    },
+    "!\n1",
+    {
+      "f": 3
+    },
+    "@\n2",
+    {
+      "f": 3
+    },
+    "#\n3",
+    {
+      "f": 3
+    },
+    "$\n4",
+    {
+      "c": "#c5cae9",
+      "g": false,
+      "a": 7,
+      "f": 3
+    },
+    "Scroll lock",
+    {
+      "x": 0.5,
+      "c": "#cccccc",
+      "a": 4,
+      "f": 4,
+      "fa": [
+        9,
+        9,
+        9,
+        9,
+        0,
+        0,
+        0,
+        0,
+        9,
+        0,
+        8
+      ],
+      "w": 4,
+      "h": 2.5,
+      "d": true
+    },
+    "<i class='fa fa-power-off'></i>\n<i class='kb kb-Hamburger-Menu'></i>\n<i class='fa fa-terminal'></i>\n<i class='fa fa-print'></i>\n\n\n\n\n<i class='fa fa-lightbulb-o'></i>\n<center><h2>System Layer</h2></center>\n<i class='fa fa-text-height'></i>",
+    {
+      "x": 0.5,
+      "c": "#c5cae9",
+      "a": 5,
+      "f": 3,
+      "fa": [
+        4
+      ]
+    },
+    "<i class='fa fa-copy'></i>\nBuffer",
+    {
+      "c": "#cccccc",
+      "g": true,
+      "a": 7
+    },
+    "",
+    "",
+    "",
+    "",
+    {
+      "a": 5,
+      "f": 3
+    },
+    "+\n="
+  ],
+  [
+    {
+      "f": 3
+    },
+    "~\n`",
+    {
+      "a": 7,
+      "f": 3
+    },
+    "B",
+    {
+      "c": "#ffccbc",
+      "g": false,
+      "f": 3
+    },
+    "Hue ➖",
+    {
+      "f": 3
+    },
+    "Hue ➕",
+    {
+      "c": "#ffecb3",
+      "f": 3
+    },
+    "RGB toggle",
+    {
+      "c": "#c5cae9",
+      "f": 3
+    },
+    "Pause break",
+    {
+      "x": 5,
+      "c": "#c7710e",
+      "t": "#ffffff",
+      "a": 4
+    },
+    "\n\n^Z\n\n\n\n\n\n\n\nSTOP",
+    {
+      "c": "#cccccc",
+      "t": "#000000",
+      "g": true,
+      "a": 7
+    },
+    "",
+    {
+      "x": -1,
+      "c": "#c5cae9",
+      "g": false,
+      "a": 5,
+      "fa": [
+        7,
+        0
+      ]
+    },
+    "<i class='fa fa-history'></i>\nHistory",
+    {
+      "fa": [
+        5
+      ]
+    },
+    "<i class='fa fa-folder'></i>\nDirs",
+    "<i class='fa fa-file'></i>\nFiles",
+    {
+      "c": "#cccccc",
+      "g": true,
+      "a": 7
+    },
+    "",
+    ""
+  ],
+  [
+    {
+      "f": 3
+    },
+    "U",
+    {
+      "c": "#ffecb3",
+      "g": false,
+      "f": 3
+    },
+    "Effect ➖",
+    {
+      "c": "#bbdefb",
+      "f": 3
+    },
+    "Bright ➖",
+    {
+      "f": 3
+    },
+    "Bright ➕",
+    {
+      "c": "#ffecb3",
+      "f": 3,
+      "n": true
+    },
+    "Effect ➕",
+    {
+      "c": "#c5cae9",
+      "f": 3
+    },
+    "Print screen",
+    {
+      "x": 5,
+      "c": "#c43939",
+      "t": "#ffffff",
+      "a": 4
+    },
+    "\n\n^C\n\n\n\n\n\n\n\nKILL",
+    {
+      "c": "#bbdefb",
+      "t": "#000000",
+      "a": 5,
+      "fa": [
+        6
+      ]
+    },
+    "<i class='fa fa-book'></i>\nDocs\n\n\nShift",
+    {
+      "c": "#dcedc8",
+      "fa": [
+        5,
+        2
+      ]
+    },
+    "<i class='fa fa-comment'></i>\nAI chat\n\n\nCmd",
+    {
+      "c": "#c5cae9",
+      "fa": [
+        7,
+        2
+      ]
+    },
+    "<i class='fa fa-terminal'></i>\nTerminal\n\n\nOpt",
+    {
+      "c": "#e1bee7"
+    },
+    "<i class='fa fa-gear'></i>\nSettings\n\n\nCtrl",
+    {
+      "c": "#c5cae9",
+      "fa": [
+        4,
+        2
+      ]
+    },
+    "<i class='fa fa-repeat'></i>\nReload config"
+  ],
+  [
+    {
+      "c": "#cccccc",
+      "g": true,
+      "a": 7,
+      "f": 3
+    },
+    "Shift",
+    {
+      "c": "#FFCDD2",
+      "g": false,
+      "f": 3
+    },
+    "Speed ➖",
+    {
+      "c": "#dcedc8",
+      "f": 3
+    },
+    "Sat ➖",
+    {
+      "f": 3
+    },
+    "Sat ➕",
+    {
+      "c": "#FFCDD2",
+      "f": 3
+    },
+    "Speed ➕",
+    {
+      "c": "#c5cae9",
+      "f": 3
+    },
+    "<small>Context</small> menu",
+    {
+      "x": 5,
+      "c": "#2a9129",
+      "t": "#ffffff",
+      "a": 4
+    },
+    "\n\n^L\n\n\n\n\n\n\n\nCLS",
+    {
+      "c": "#c5cae9",
+      "t": "#000000",
+      "a": 5,
+      "fa": [
+        5,
+        2
+      ]
+    },
+    "<i class='fa fa-bookmark'></i>\nMarks",
+    {
+      "f2": 2
+    },
+    "<i class='kb kb-A-Square-Filled-Serif'></i>\nJump char",
+    {
+      "fa": [
+        4,
+        2
+      ]
+    },
+    "<i class='fa fa-chevron-circle-up'></i>\nPush line",
+    {
+      "c": "#e1bee7",
+      "fa": [
+        9,
+        2
+      ]
+    },
+    "<i class='kb kb-Symbol-Skull-Bones-1'></i>\nQuit",
+    {
+      "c": "#c5cae9",
+      "a": 7
+    },
+    "<i class='fa fa-angle-double-up'></i>"
+  ],
+  [
+    {
+      "y": -0.04999999999999982,
+      "x": 6.95,
+      "c": "#ffecb3",
+      "g": true,
+      "p": "FLAT",
+      "f": 2,
+      "w": 1.1,
+      "h": 2.7,
+      "d": true
+    },
+    ""
+  ],
+  [
+    {
+      "y": -0.9500000000000002,
+      "c": "#cccccc",
+      "t": "#EEEEEE",
+      "p": "CHICKLET",
+      "f": 3
+    },
+    "Magic",
+    {
+      "t": "#000000"
+    },
+    "Home",
+    "Page up",
+    "Page down",
+    "",
+    {
+      "c": "#e1bee7",
+      "g": false
+    },
+    "Lock screen",
+    "Sleep",
+    "Power",
+    {
+      "x": 1,
+      "c": "#757575",
+      "t": "#EEEEEE"
+    },
+    "Unlock layer",
+    {
+      "c": "#cccccc",
+      "t": "#000000",
+      "g": true,
+      "fa": [
+        9
+      ]
+    },
+    "&rArr;",
+    {
+      "c": "#ffff8d",
+      "g": false,
+      "p": "SPACE",
+      "n": true
+    },
+    "<img src=\"https://openclipart.org/download/278214/fingerprint.svg\" width=\"36\" height=\"36\" />\n\n\n\nLayer",
+    {
+      "c": "#cccccc",
+      "p": "",
+      "a": 5,
+      "f": 8,
+      "fa": [
+        9,
+        2,
+        0,
+        0,
+        0,
+        0,
+        6
+      ]
+    },
+    "\n(sticky)\n\n\n\n\n⇧",
+    {
+      "f": 3,
+      "fa": [
+        9,
+        2,
+        0,
+        0,
+        0,
+        0,
+        6
+      ]
+    },
+    "\n(sticky)\n\n\n\n\n⌘",
+    {
+      "c": "#ccccccc",
+      "f": 6,
+      "fa": [
+        9,
+        2
+      ]
+    },
+    "\n(sticky)\n\n\n\n\n⌥",
+    {
+      "c": "#cccccc",
+      "f": 3,
+      "fa": [
+        9,
+        2,
+        0,
+        0,
+        0,
+        0,
+        6
+      ]
+    },
+    "\n(sticky)\n\n\n\n\n^",
+    {
+      "c": "#c5cae9",
+      "p": "CHICKLET",
+      "a": 7
+    },
+    "<i class='fa fa-angle-double-down'></i>"
+  ],
+  [
+    {
+      "x": 5,
+      "c": "#c7710e",
+      "t": "#ffffff",
+      "a": 4
+    },
+    "\n\n^Z\n\n\n\n\n\n\n\nSTOP",
+    {
+      "c": "#c43939"
+    },
+    "\n\n^C\n\n\n\n\n\n\n\nKILL",
+    {
+      "c": "#2a9129"
+    },
+    "\n\n^L\n\n\n\n\n\n\n\nCLS",
+    {
+      "x": 1,
+      "c": "#cccccc",
+      "t": "#000000",
+      "g": true,
+      "a": 7,
+      "f": 3
+    },
+    "&lArr;",
+    {
+      "f": 3
+    },
+    "Tab\n\n\n\nMouse",
+    {
+      "f": 3
+    },
+    "End"
+  ]
+]

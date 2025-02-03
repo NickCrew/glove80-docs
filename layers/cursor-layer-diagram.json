@@ -1,0 +1,435 @@
+[
+  {
+    "name": "cursor-layer-diagram",
+    "css": "/* front legend */\n.keylabel10 div { \n    font-size: xx-small;\n    font-style: italic;\n    text-shadow: 1px 1px 2px #FFD600;\n}\n/* description */\ncenter h2 {\n    margin-top: 1em;\n    font-weight: bold;\n}\ncenter ul {\n    padding-left: 0;\n    margin-top: 1em;\n    padding-top: 1em;\n    font-size: smaller;\n}\ncenter ul li {\n    margin-top: 1ex;\n    list-style-type: none;\n}\ncenter ul li a {\n    font-weight: bold;\n}\ncenter .permalink {\n    font-size: x-small;\n}\ncenter em {\n    font-weight: normal;\n    font-style: normal;\n}"
+  },
+  [
+    {
+      "g": true,
+      "p": "CHICKLET",
+      "a": 5
+    },
+    "|\n\\",
+    {
+      "a": 7
+    },
+    "F2",
+    "F3",
+    "F4",
+    {
+      "t": "#EEEEEE"
+    },
+    "Reset",
+    {
+      "x": 7,
+      "t": "#000000"
+    },
+    "F6",
+    "F7",
+    "F8",
+    "F9",
+    {
+      "a": 5
+    },
+    "+\n="
+  ],
+  [
+    {
+      "a": 7
+    },
+    "",
+    "F6",
+    "F7",
+    "F8",
+    "F9",
+    {
+      "a": 5
+    },
+    "+\n=",
+    {
+      "t": "#b89206\n\n#168c4d\n#eb7200\n\n\n\n\n#50823c\n\n#eb42db",
+      "g": false,
+      "a": 4,
+      "f": 4,
+      "fa": [
+        9,
+        9,
+        9,
+        9,
+        0,
+        0,
+        0,
+        0,
+        9,
+        0,
+        9
+      ],
+      "w": 5,
+      "h": 2.75,
+      "d": true
+    },
+    "<i class='fa fa-edit'></i>\n<i class='fa fa-terminal'></i>\n<i class='kb kb-logo-vim'></i>\n<i class='fa fa-firefox'></i>\n\n\n\n\n<i class='fa fa-arrows'></i>\n<center><h2>Cursor Layer</h2></center>\n<i class='fa fa-search'></i>",
+    {
+      "t": "#000000",
+      "g": true,
+      "a": 7,
+      "f": 3
+    },
+    "",
+    {
+      "c": "#ffecb3",
+      "g": false
+    },
+    "Zoom ➖",
+    "Reset zoom",
+    "Zoom ➕",
+    {
+      "c": "#cccccc",
+      "g": true
+    },
+    "F9",
+    {
+      "a": 5
+    },
+    "+\n="
+  ],
+  [
+    {
+      "c": "#ffcdd2",
+      "g": false,
+      "a": 7
+    },
+    "Search bar",
+    "Down loads\n\n\n\nSymbol",
+    {
+      "c": "#e1bee7",
+      "a": 4,
+      "fa": [
+        0,
+        0,
+        6
+      ]
+    },
+    "\n\n<i class='kb kb-Redo-1'></i>\n\n\n\n\n\n\n\nRedo",
+    "\n\n<i class='kb kb-Undo-3'></i>\n\n\n\n\n\n\n\nUndo",
+    {
+      "c": "#8b49ba",
+      "t": "#ffffff",
+      "p": "SPACE",
+      "a": 7,
+      "f": 4,
+      "fa": [
+        7
+      ]
+    },
+    "<i class='fa fa-star'></i>\n\n\n\nF20",
+    {
+      "c": "#ffecb3",
+      "t": "#000000",
+      "p": "CHICKLET",
+      "a": 4,
+      "f": 3,
+      "fa": [
+        7,
+        0,
+        4
+      ]
+    },
+    "\n\n<i class='fa fa-cut'></i>\n\n\n\n\n\n\n\nCut",
+    {
+      "x": 5,
+      "c": "#ffccbc",
+      "f": 3
+    },
+    "\n\n⌦\n\n\n\n\n\n\n\nDelete",
+    {
+      "f": 3
+    },
+    "\n\n⌫\n\n\n\n\n\n\n\nBkSpc",
+    {
+      "f": 3
+    },
+    "\n\n␣\n\n\n\n\n\n\n\nSpace",
+    {
+      "f": 3
+    },
+    "\n\n<i class='kb kb-Tab-1'></i>\n\n\n\n\n\n\n\nTab",
+    {
+      "f": 3
+    },
+    "\n\n⏎\n\n\n\n\n\n\n\nReturn",
+    {
+      "f": 3
+    },
+    "\n\n⎋\n\n\n\n\n\n\n\nEsc"
+  ],
+  [
+    {
+      "c": "#cccccc",
+      "p": "SPACE",
+      "a": 7,
+      "f": 3
+    },
+    "⇧ <small>(sticky)</small>\n\n\n\nShift",
+    {
+      "c": "#d16674",
+      "t": "#ffffff",
+      "fa": [
+        6
+      ]
+    },
+    "⌃\n\n\n\nCtrl",
+    {
+      "c": "#5999c9"
+    },
+    "⌥\n\n\n\nOpt",
+    {
+      "c": "#7da84d"
+    },
+    "⌘\n\n\n\nCmd",
+    {
+      "c": "#bd9724",
+      "n": true
+    },
+    "⇧\n\n\n\nShift",
+    {
+      "c": "#ffecb3",
+      "t": "#000000",
+      "p": "CHICKLET",
+      "a": 4,
+      "fa": [
+        6,
+        0,
+        4
+      ]
+    },
+    "\n\n<i class='fa fa-copy'></i>\n\n\n\n\n\n\n\nCopy",
+    {
+      "x": 5,
+      "c": "#dcedc8",
+      "a": 7,
+      "f": 9,
+      "n": true
+    },
+    "<i class='fa fa-long-arrow-left'></i>\n\n\n\nShift",
+    "<i class='fa fa-long-arrow-down'></i>\n\n\n\nAlt",
+    "<i class='fa fa-long-arrow-up'></i>\n\n\n\nCtrl",
+    "<i class='fa fa-long-arrow-right'></i>\n\n\n\nWin",
+    {
+      "c": "#e1bee7",
+      "a": 4,
+      "f": 3,
+      "fa": [
+        0,
+        0,
+        6
+      ]
+    },
+    "\n\n<i class='kb kb-Undo-3'></i>\n\n\n\n\n\n\n\nUndo",
+    {
+      "c": "#cccccc",
+      "p": "SPACE",
+      "a": 7
+    },
+    "Shift <small>(sticky)</small>\n\n\n\nShift"
+  ],
+  [
+    {
+      "c": "#ffcdd2",
+      "p": "CHICKLET"
+    },
+    "URL bar",
+    {
+      "c": "#bbdefb",
+      "t": "#00000"
+    },
+    "Select all",
+    {
+      "t": "#000000"
+    },
+    "Select line\n\n\n\nMouse",
+    "Select word\n\n\n\nSymbol",
+    "Select none\n\n\n\nSymbol",
+    {
+      "c": "#ffecb3",
+      "a": 4,
+      "fa": [
+        0,
+        0,
+        4
+      ]
+    },
+    "\n\n<i class='fa fa-paste'></i>\n\n\n\n\n\n\n\nPaste",
+    {
+      "x": 5,
+      "c": "#dcedc8"
+    },
+    "\n\n⇤\n\n\n\n\n\n\n\nHome",
+    "\n\n⇟\n\n\n\n\n\n\n\nPgDn",
+    "\n\n⇞\n\nAltGr\n\n\n\n\n\nPgUp",
+    "\n\n⇥\n\n\n\n\n\n\n\nEnd",
+    {
+      "c": "#e1bee7",
+      "fa": [
+        0,
+        0,
+        6
+      ]
+    },
+    "\n\n<i class='kb kb-Redo-1'></i>\n\n\n\n\n\n\n\nRedo",
+    {
+      "c": "#ffcdd2",
+      "a": 7
+    },
+    "History"
+  ],
+  [
+    {
+      "y": -0.04999999999999982,
+      "x": 6.95,
+      "c": "#FFFF8D",
+      "p": "FLAT",
+      "f": 2,
+      "w": 1.1,
+      "h": 2.7,
+      "d": true
+    },
+    ""
+  ],
+  [
+    {
+      "y": -0.9500000000000002,
+      "c": "#e1bee7",
+      "p": "CHICKLET",
+      "a": 4,
+      "f": 3
+    },
+    "\nFind\n<i class='fa fa-search'></i>",
+    "\nFind prev\n<i class='fa fa-search-minus'></i>",
+    {
+      "c": "#bbdefb",
+      "a": 7
+    },
+    "Extend line",
+    "Extend word",
+    {
+      "c": "#e1bee7",
+      "a": 4
+    },
+    "\nFind next\n<i class='fa fa-search-plus'></i>",
+    {
+      "c": "#a5d6a7",
+      "a": 7
+    },
+    "Alt-Tab\n\n\n\nNumber",
+    "Win-Tab",
+    {
+      "c": "#757575",
+      "t": "#EEEEEE"
+    },
+    "Unlock layer",
+    {
+      "x": 1,
+      "c": "#bbdefb",
+      "t": "#000000"
+    },
+    "Select none",
+    "Extend line",
+    "Extend word",
+    {
+      "c": "#e1bee7",
+      "a": 4
+    },
+    "\nFind prev\n<i class='fa fa-search-minus'></i>",
+    {
+      "c": "#ffecb3",
+      "fa": [
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    "\n\n<i class='fa fa-asterisk'></i>\n\n\n\n\n\n\n\nCpMode",
+    "\n\n<i class='fa fa-asterisk'></i>\n\n\n\n\n\n\n\nQSelect",
+    {
+      "c": "#e1bee7",
+      "fa": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    "\nFind next\n<i class='fa fa-search-plus'></i>",
+    "\nFind\n<i class='fa fa-search'></i>"
+  ],
+  [
+    {
+      "x": 5,
+      "c": "#ffff8d",
+      "p": "SPACE",
+      "a": 7,
+      "f": 9,
+      "n": true
+    },
+    "<i class='fa fa-hand-pointer-o'></i>\n\n\n\nLayer",
+    {
+      "c": "#a5d6a7",
+      "p": "CHICKLET",
+      "f": 3
+    },
+    "Ctrl-Tab",
+    {
+      "c": "#ffccbc"
+    },
+    "Tab\n\n\n\nFunction",
+    {
+      "x": 1,
+      "c": "#bbdefb",
+      "t": "#00000"
+    },
+    "Select all",
+    {
+      "t": "#000000"
+    },
+    "Select line\n\n\n\nMouse",
+    {
+      "n": true
+    },
+    "Select word\n\n\n\nSymbol",
+    {
+      "c": "#cccccc",
+      "a": 4,
+      "fa": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4
+      ],
+      "w": 2.5,
+      "h": 0.5,
+      "d": true
+    },
+    "<i class='fa fa-asterisk'></i>\n\n\n\n\n\n\n\nWezterm only"
+  ]
+]
