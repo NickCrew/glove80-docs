@@ -31,6 +31,37 @@
   ],
   [
     {
+      "y": -0.25,
+      "x": 6.5,
+      "t": "#000000\n#864aa1\n\n#03994c\n\n\n\n\n\n\n#004eba",
+      "g": false,
+      "a": 4,
+      "f": 4,
+      "fa": [
+        0,
+        9,
+        0,
+        9,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        9
+      ],
+      "w": 4.25,
+      "h": 2.5,
+      "d": true
+    },
+    "\n<i class='kb kb-1-Round-Filled-1'></i>\n\n<i class='kb kb-logo-vim'></i>\n\n\n\n\n<center><h2>Number Layer</h2></center>\n\n<i class='fa fa-calculator'></i>"
+  ],
+  [
+    {
+      "y": -0.75,
+      "t": "#000000",
+      "g": true,
+      "a": 7,
       "f": 9
     },
     "<big>𝓍</big>",
@@ -45,30 +76,25 @@
     "hex\n13\n\n\n\n\nⓓ",
     "hex\n14\n\n\n\n\nⓔ",
     {
-      "fa": [
-        2
-      ]
-    },
-    "hex\n15\n\n\n\n\nⓕ",
-    {
+      "c": "#ffccbc",
+      "g": false,
       "a": 4,
       "fa": [
-        2,
+        0,
         0,
         4
       ]
     },
+    "\n\n⌦\n\n\n\n\n\n\n\nDelete",
+    {
+      "c": "#cccccc",
+      "g": true
+    },
     "\n\n⎀\n\n\n\n\n\n\n\nInsert",
     {
-      "g": false,
-      "f": 4,
-      "w": 5,
-      "h": 4,
-      "d": true
-    },
-    "<center><h2>Number Layer</h2></center>",
-    {
+      "x": 5,
       "c": "#C5CAE9",
+      "g": false,
       "a": 7,
       "f": 5
     },
@@ -91,13 +117,6 @@
   ],
   [
     {
-      "c": "#cccccc",
-      "g": true
-    },
-    "!",
-    {
-      "c": "#ffccbc",
-      "g": false,
       "a": 4,
       "f": 3,
       "fa": [
@@ -106,6 +125,7 @@
         4
       ]
     },
+    "\n\n<i class='mss mss-Unicode-Escape-3'></i>\n\n\n\n\n\n\n\nEscape",
     "\n\n⏎\n\n\n\n\n\n\n\nReturn",
     {
       "fa": [
@@ -131,7 +151,20 @@
       ]
     },
     "\n\n⌫\n\n\n\n\n\n\n\nBkSpc",
-    "\n\n⌦\n\n\n\n\n\n\n\nDelete",
+    {
+      "fa": [
+        0,
+        0,
+        7,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "\n\n<i class='kb kb-Unicode-Insert-2'></i>\n\n\n\n\n\n\n\nInsert",
     {
       "x": 5,
       "c": "#C5CAE9",

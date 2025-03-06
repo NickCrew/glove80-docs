@@ -28,86 +28,93 @@
     },
     "",
     "",
-    {
-      "c": "#00796B",
-      "t": "#EEEEEE",
-      "g": false,
-      "f": 7
-    },
-    "&larr;",
-    "&rarr;"
+    "",
+    ""
   ],
   [
     {
+      "y": -0.25,
+      "x": 6.5,
+      "t": "#000000\n#2065ba\n\n#0d8220\n\n\n\n\n\n\n#1a362b",
+      "g": false,
+      "a": 4,
+      "f": 4,
+      "fa": [
+        0,
+        9,
+        0,
+        9,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        9
+      ],
+      "w": 4,
+      "h": 2.25,
+      "d": true
+    },
+    "<center><h2>Symbol Layer</h2></center>\n<i class='mss mss-Unicode-Command-3'></i>\n\n<i class='kb kb-logo-vim'></i>\n\n\n\n\n\n\n<i class='fa fa-arrows'></i>"
+  ],
+  [
+    {
+      "y": -0.75,
       "c": "#ffcdd2",
       "t": "#000000",
+      "a": 7,
       "f": 9
     },
     "`",
     {
-      "c": "#bbdefb",
-      "f": 7
-    },
-    "[",
-    "(",
-    ")",
-    "]",
-    {
       "c": "#ffecb3",
-      "f": 9
-    },
-    ".",
-    {
-      "c": "#cccccc",
-      "a": 4,
-      "f": 4,
-      "w": 5,
-      "h": 4,
-      "d": true
-    },
-    "<center><h2>Symbol Layer</h2></center>",
-    {
-      "c": "#ffecb3",
-      "a": 7,
       "f": 7
-    },
-    "@",
-    {
-      "c": "#cccccc",
-      "p": "SPACE",
-      "f": 3
-    },
-    "Shift <small>(sticky)</small>\n\n\n\nShift",
-    "Win <small>(sticky)</small>\n\n\n\nWin",
-    "Alt <small>(sticky)</small>\n\n\n\nAlt",
-    "Ctrl <small>(sticky)</small>\n\n\n\nCtrl",
-    {
-      "c": "#00796B",
-      "t": "#EEEEEE",
-      "p": "CHICKLET",
-      "f": 7
-    },
-    "&uarr;"
-  ],
-  [
-    {
-      "c": "#e1bee7",
-      "t": "#000000"
-    },
-    "!",
-    {
-      "c": "#ffecb3"
     },
     ",",
     {
       "c": "#bbdefb"
     },
-    "{",
-    "}",
+    "(",
+    ")",
     {
       "c": "#ffecb3"
     },
     ";",
+    {
+      "f": 9
+    },
+    ".",
+    {
+      "x": 5,
+      "c": "#cccccc",
+      "g": true,
+      "f": 3
+    },
+    "Shift <small>(sticky)</small>\n\n\n\nShift",
+    "Shift <small>(sticky)</small>\n\n\n\nShift",
+    "Win <small>(sticky)</small>\n\n\n\nWin",
+    "Alt <small>(sticky)</small>\n\n\n\nAlt",
+    "Ctrl <small>(sticky)</small>\n\n\n\nCtrl",
+    ""
+  ],
+  [
+    {
+      "c": "#e1bee7",
+      "g": false,
+      "f": 7
+    },
+    "!",
+    {
+      "c": "#bbdefb"
+    },
+    "[",
+    "{",
+    "}",
+    "]",
+    {
+      "c": "#ffecb3"
+    },
     "?",
     {
       "x": 5,
@@ -116,23 +123,25 @@
     },
     "`",
     {
-      "c": "#bbdefb",
-      "f": 7
+      "c": "#cccccc",
+      "p": "SPACE",
+      "f": 3
     },
-    "[",
-    "(",
-    ")",
-    "]",
+    "Shift <small>(sticky)</small>\n\n\n\nShift",
+    "Cmd <small>(sticky)</small>\n\n\n\nCmd",
+    "Alt <small>(sticky)</small>\n\n\n\nAlt",
+    "Ctrl <small>(sticky)</small>\n\n\n\nCtrl",
     {
-      "c": "#00796B",
-      "t": "#EEEEEE"
+      "g": true,
+      "p": "CHICKLET"
     },
-    "&darr;"
+    ""
   ],
   [
     {
       "c": "#ffecb3",
-      "t": "#000000"
+      "g": false,
+      "f": 7
     },
     "#",
     "^",
@@ -171,16 +180,13 @@
     "Space\n\n\n\nAltGr",
     "Tab",
     "Enter",
-    {
-      "c": "#dcedc8",
-      "t": "#000000",
-      "f": 8
-    },
-    "--"
+    "Escape"
   ],
   [
     {
-      "c": "#e1bee7"
+      "c": "#e1bee7",
+      "t": "#000000",
+      "f": 8
     },
     "~",
     {
@@ -212,16 +218,32 @@
       "f": 3
     },
     "Delete",
-    "Escape\n\n\n\nAltGr",
+    {
+      "c": "#ffecb3",
+      "t": "#000000",
+      "f": 7
+    },
+    ":\n\n\n\nAltGr",
+    {
+      "c": "#8D6E63",
+      "t": "#EEEEEE",
+      "f": 3
+    },
     "Shift-Tab",
-    "Shift-Enter\n\n\n\nAltGr"
+    "Shift-Enter\n\n\n\nAltGr",
+    {
+      "c": "#cccccc",
+      "t": "#000000",
+      "g": true
+    },
+    ""
   ],
   [
     {
       "y": -0.04999999999999982,
       "x": 6.95,
       "c": "#FFFF8D",
-      "t": "#000000",
+      "g": false,
       "p": "FLAT",
       "f": 2,
       "w": 1.1,
@@ -246,10 +268,10 @@
     },
     "&",
     {
-      "c": "#bbdefb"
+      "c": "#ffecb3"
     },
-    "[",
-    "]",
+    "'",
+    "\"",
     {
       "c": "#ffccbc",
       "f": 8
@@ -281,27 +303,36 @@
     "",
     "\n\n\n\nSystem",
     {
+      "c": "#00796B",
+      "t": "#EEEEEE",
       "g": false,
-      "p": "SPACE"
+      "f": 7
     },
-    "Shift <small>(sticky)</small>\n\n\n\nShift",
-    "Win <small>(sticky)</small>\n\n\n\nWin",
-    "Alt <small>(sticky)</small>\n\n\n\nAlt",
-    "Ctrl <small>(sticky)</small>\n\n\n\nCtrl"
+    "&larr;",
+    "&uarr;",
+    "&darr;",
+    "&rarr;",
+    {
+      "c": "#cccccc",
+      "t": "#000000",
+      "g": true,
+      "f": 3
+    },
+    ""
   ],
   [
     {
       "x": 5,
       "c": "#ffecb3",
-      "p": "CHICKLET",
+      "g": false,
       "f": 7,
       "n": true
     },
-    ":",
+    "%",
     {
       "f": 8
     },
-    "%",
+    ":",
     {
       "f": 7
     },

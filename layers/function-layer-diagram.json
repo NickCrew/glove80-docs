@@ -1,7 +1,7 @@
 [
   {
     "name": "function-layer-diagram",
-    "css": "/* front legend */\n.keylabel10 div { \n    font-size: xx-small;\n    font-style: italic;\n    text-shadow: 1px 1px 2px #FFD600;\n}\n/* description */\ncenter h2 {\n    margin-top: 1em;\n    font-weight: bold;\n}\ncenter ul {\n    padding-left: 0;\n    margin-top: 1em;\n    padding-top: 1em;\n    font-size: smaller;\n}\ncenter ul li {\n    margin-top: 1ex;\n    list-style-type: none;\n}\ncenter ul li a {\n    font-weight: bold;\n}\ncenter .permalink {\n    font-size: x-small;\n}\ncenter em {\n    font-weight: normal;\n    font-style: normal;\n}"
+    "css": "/* front legend */\n.keylabel10 div { \n    font-size: xx-small;\n    font-style: italic;\n    text-shadow: 1px 1px 2px #FFD600;\n}\n/* description */\ncenter h2 {\n\n    font-weight: bold;\n}\np {\n    font-weight: bold;\n}\ncenter ul {\n    padding-left: 0;\n    margin-top: 1em;\n    padding-top: 1em;\n    font-size: smaller;\n}\ncenter ul li {\n    margin-top: 1ex;\n    list-style-type: none;\n}\ncenter ul li a {\n    font-weight: bold;\n}\ncenter .permalink {\n    font-size: x-small;\n}\ncenter em {\n    font-weight: normal;\n    font-style: normal;\n}"
   },
   [
     {
@@ -22,43 +22,47 @@
     "Reset",
     {
       "x": 7,
-      "t": "#000000"
-    },
-    "F6",
-    "F7",
-    "F8",
-    "F2",
-    "F3"
-  ],
-  [
-    {
-      "y": -0.25,
-      "x": 6.25,
+      "c": "#ffccbc",
+      "t": "#000000",
       "g": false,
       "a": 4,
       "fa": [
-        9,
-        0,
-        9,
         0,
         0,
-        0,
-        0,
-        0,
-        9,
-        1
-      ],
-      "w": 4.5,
-      "h": 2.25,
-      "d": true
+        4
+      ]
     },
-    "<i class='fa fa-keyboard-o'></i>\n\n<i class='fa fa-apple'></i>\n\n\n\n\n\n<i class='fa fa-music'></i>\n<center><h2>Function Layer</h2></center>"
+    "\n\n⌦\n\n\n\n\n\n\n\nDelete",
+    {
+      "c": "#bbdefb",
+      "a": 7,
+      "fa": [
+        4
+      ]
+    },
+    "<i class='fa fa-th'></i>",
+    {
+      "f": 8
+    },
+    "<i class='fa fa-question-circle'></i>",
+    {
+      "f": 3,
+      "fa": [
+        6
+      ]
+    },
+    "<i class='fa fa-space-shuttle'></i>",
+    {
+      "fa": [
+        5
+      ]
+    },
+    "<i class='fa fa-th-large'></i>"
   ],
   [
     {
-      "y": -0.75,
+      "c": "#cccccc",
       "g": true,
-      "a": 7,
       "f": 3
     },
     "F2",
@@ -76,57 +80,91 @@
     },
     "Reset",
     {
-      "f": 3
-    },
-    "Reset",
-    {
-      "t": "#000000",
-      "f": 3
-    },
-    "F4",
-    {
-      "x": 5,
-      "c": "#bbdefb",
-      "f": 3
-    },
-    "Media player",
-    {
-      "f": 3
-    },
-    "Play",
-    {
-      "f": 3
-    },
-    "Prev track",
-    {
-      "f": 3
-    },
-    "Next track",
-    {
-      "f": 3
-    },
-    "Stop",
-    {
-      "f": 3
-    },
-    "Eject"
-  ],
-  [
-    {
       "c": "#ffccbc",
+      "t": "#000000",
       "g": false,
       "a": 4,
       "fa": [
-        9,
+        5,
         0,
         4
       ]
     },
+    "\n\n⌦\n\n\n\n\n\n\n\nDelete",
+    {
+      "c": "#cccccc",
+      "g": true,
+      "a": 7,
+      "f": 3
+    },
+    "F4",
+    {
+      "x": 0.25,
+      "t": "#470a0a\n#470a0a\n#298196\n#298196\n\n\n\n\n#2e2e2e\n\n#9c7721",
+      "g": false,
+      "a": 4,
+      "fa": [
+        5,
+        9,
+        4,
+        9,
+        0,
+        0,
+        0,
+        0,
+        9,
+        4,
+        9
+      ],
+      "w": 4.5,
+      "h": 3.5,
+      "d": true
+    },
+    "\n<i class='fa fa-keyboard-o'></i>\n\n<i class='fa fa-apple'></i>\n\n\n\n\n<center><h2>Function Layer</h2></center>\n<p>MoErgo Glove80 Keyboard</p><p> <a href=\"https://github.com/NickCrew/glove80-keymaps\">NIckCrew/glove80-keymaps</a></p>\n<i class='fa fa-music'></i>",
+    {
+      "x": 0.25,
+      "c": "#ffccbc",
+      "t": "#000000",
+      "fa": [
+        5,
+        9,
+        6
+      ]
+    },
+    "\n\n<i class='mss mss-Unicode-Insert-3'></i>\n\n\n\n\n\n\n\nInsert",
+    {
+      "fa": [
+        5,
+        9,
+        4
+      ]
+    },
+    "\n\n<i class='mss mss-Unicode-BackSpace-DeleteLeft-Big-2'></i>\n\n\n\n\n\n\n\nBkSpc",
+    "\n\n␣\n\n\n\n\n\n\n\nSpace",
+    {
+      "fa": [
+        5,
+        9,
+        5
+      ]
+    },
+    "\n\n<i class='kb kb-Tab-2'></i>\n\n\n\n\n\n\n\nTab",
+    "\n\n<i class='kb kb-Return-2'></i>\n\n\n\n\n\n\n\nReturn",
+    {
+      "fa": [
+        5,
+        9,
+        4
+      ]
+    },
+    "\n\n<i class='mss mss-Unicode-Escape-3'></i>\n\n\n\n\n\n\n\nEscape"
+  ],
+  [
     "\n\n<i class='mss mss-Unicode-Escape-3'></i>\n\n\n\n\n\n\n\nEscape",
     {
       "fa": [
+        5,
         9,
-        0,
         5
       ]
     },
@@ -134,35 +172,40 @@
     "\n\n<i class='kb kb-Tab-2'></i>\n\n\n\n\n\n\n\nTab",
     {
       "fa": [
+        5,
         9,
-        0,
         4
       ]
     },
     "\n\n␣\n\n\n\n\n\n\n\nSpace",
     "\n\n<i class='mss mss-Unicode-BackSpace-DeleteLeft-Big-2'></i>\n\n\n\n\n\n\n\nBkSpc",
-    "\n\n⌦\n\n\n\n\n\n\n\nDelete",
+    {
+      "fa": [
+        5,
+        9,
+        6
+      ]
+    },
+    "\n\n<i class='mss mss-Unicode-Insert-3'></i>\n\n\n\n\n\n\n\nInsert",
     {
       "x": 5,
-      "c": "#cccccc",
-      "g": true,
+      "c": "#FFECB3",
       "a": 7,
-      "f": 3
+      "fa": [
+        4
+      ]
     },
-    "Bright ➖",
+    "F15",
     {
       "c": "#dcedc8",
-      "g": false,
       "f": 4
     },
     "F7",
     "F8",
     "F9",
-    {
-      "c": "#ffccbc"
-    },
     "F10",
     {
+      "c": "#FFECB3",
       "f": 3,
       "fa": [
         4
@@ -227,12 +270,14 @@
     },
     "\n\n⇧\n\n\n\n\n\n\n\nShift",
     {
+      "c": "#cccccc",
       "g": true,
       "a": 7
     },
     "F17",
     {
       "x": 5,
+      "c": "#FFECB3",
       "g": false
     },
     "F16",
@@ -243,11 +288,9 @@
     "F4\n\n\n\nShift",
     "F5\n\n\n\nCtrl",
     "F6\n\n\n\nAlt",
-    {
-      "c": "#ffccbc"
-    },
     "F11\n\n\n\nWin",
     {
+      "c": "#FFECB3",
       "f": 3,
       "fa": [
         4
@@ -282,13 +325,14 @@
     },
     "Reset",
     {
-      "c": "#FFECB3",
+      "c": "#ccccc",
       "t": "#000000",
       "f": 4
     },
     "F18",
     {
       "x": 5,
+      "c": "#FFECB3",
       "g": false
     },
     "F17",
@@ -298,17 +342,15 @@
     "F1",
     "F2",
     "F3\n\n\n\nAltGr",
-    {
-      "c": "#ffccbc"
-    },
     "F12",
     {
+      "c": "#bbdefb",
       "f": 3,
       "fa": [
-        4
+        9
       ]
     },
-    "F15"
+    "<i class='kb kb-Unicode-Screen-Bright'></i>"
   ],
   [
     {
@@ -335,7 +377,6 @@
     "Home",
     "",
     {
-      "c": "#FFECB3",
       "f": 5
     },
     "F20",
@@ -384,20 +425,36 @@
     "F19",
     "F20",
     {
-      "c": "#cccccc",
-      "g": true,
-      "f": 3
+      "c": "#bbdefb",
+      "f": 3,
+      "fa": [
+        6
+      ]
     },
-    "Bright min",
-    "Bright auto"
+    "<i class='fa fa-eject'></i>",
+    {
+      "fa": [
+        9
+      ]
+    },
+    "<i class='kb kb-Unicode-Screen-Dim'></i>"
   ],
   [
     {
       "x": 5,
+      "c": "#cccccc",
+      "g": true,
+      "f": 3,
       "n": true
     },
     "Back space\n\n\n\nCursor",
+    {
+      "f": 3
+    },
     "Delete\n\n\n\nNumber",
+    {
+      "f": 3
+    },
     "&dArr;",
     {
       "x": 1,

@@ -38,7 +38,6 @@
       "x": 6,
       "c": "#cccccc",
       "t": "#0f6b1a\n#039911\n#721fcc\n#d92929\n\n\n#bf5a00\n#2985d9\n#050505\n\n#990378",
-      "p": "",
       "a": 4,
       "f": 4,
       "fa": [
@@ -55,7 +54,7 @@
         9
       ],
       "w": 5,
-      "h": 4,
+      "h": 3.5,
       "d": true
     },
     "<i class='kb kb-logo-vim'></i>\n<i class='fa fa-arrows'></i>\n<i class='fa fa-code'></i>\n<i class='fa fa-edit'></i>\n\n\n<i class='fa fa-language'></i>\n<i class='fa fa-mouse-pointer'></i>\n<i class='kb kb-logo-apple'></i>\n<center><h2>Base Layer</h2><p class=\"subtitle\"><strong>QWERTY</strong><br/>(w/ Alt. Bottom Row)</p><h5>MoErgo Glove80 Keyboard</h5></center>\n<i class='fa fa-calculator'></i>"
@@ -64,7 +63,6 @@
     {
       "y": -0.25,
       "t": "#000000",
-      "p": "CHICKLET",
       "a": 5,
       "f": 3
     },
@@ -224,32 +222,34 @@
   ],
   [
     {
-      "y": -0.04999999999999982,
-      "x": 4.93,
-      "c": "#ffccbc",
+      "y": -0.07000000000000028,
+      "x": 5.9799999999999995,
+      "c": "#ffecb3",
       "p": "FLAT",
       "a": 5,
       "f": 2,
+      "w": 1.025,
+      "h": 2.7
+    },
+    "\n⇧^ <small>(sticky)</small>",
+    {
+      "x": 2.9749999999999996,
+      "w": 1.025,
+      "h": 2.75
+    },
+    "\n⇧⌘ <small>(sticky)</small>\n\n\nTyping"
+  ],
+  [
+    {
+      "y": -0.9799999999999995,
+      "x": 4.93,
+      "c": "#ffccbc",
       "w": 1.075,
       "h": 2.7
     },
     "\nAlt+Tab <small>cursor layer</small>",
     {
-      "x": -0.025000000000000355,
-      "c": "#ffecb3",
-      "w": 1.025,
-      "h": 2.7
-    },
-    "\nAltGr <small>(sticky)</small>",
-    {
-      "x": 2.9749999999999996,
-      "w": 1.025,
-      "h": 2.7
-    },
-    "\nAltGr <small>(sticky)</small>\n\n\nTyping",
-    {
-      "x": -0.025000000000000355,
-      "c": "#ffccbc",
+      "x": 4.974999999999999,
       "w": 1.075,
       "h": 2.7
     },
@@ -361,10 +361,11 @@
     "<span class=\"left\">Ctrl+Tab<small><br>cursor layer</small></span>",
     {
       "x": 2.874999999999999,
-      "w": 2.625,
+      "a": 5,
+      "w": 2.75,
       "h": 1.11
     },
-    "<span class=\"right\">Meh<small><br>(sticky)</small></span>"
+    "<span class=\"right\">⇧⌥⌘<small><br>(sticky)</small></span>"
   ],
   [
     {
@@ -389,7 +390,7 @@
       "a": 7,
       "w": 3
     },
-    "Layer X <br/>(sticky)",
+    "⇪ Caps",
     {
       "x": -3,
       "c": "#cccccc"
@@ -432,16 +433,10 @@
     },
     "<p>Special thanks to <a href=\"https://sunaku.github.io/moergo-glove80-keyboard.html#layers\">Sanuku and his Glorious Engrammer layout</a></p>",
     {
-      "x": 8.5,
+      "x": 8.75,
       "a": 4,
       "fa": [
-        4,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
+        4
       ],
       "w": 4,
       "h": 0.75,
